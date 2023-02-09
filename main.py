@@ -105,5 +105,3 @@ with Session(engine) as session:
     faculty3.departments.append(Department(name="Phisic Science", financing=13500.0))
 
     session.commit()
-
-
